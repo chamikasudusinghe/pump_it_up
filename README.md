@@ -23,39 +23,46 @@ Model: CatBoost
 
 Null
 
-public_meeting - replaced with mode
-permit - replaced with mode
-installer - replaced with mode
-funder - replaced with mode
-scheme_management - grouped with region_code and replaced
-subvillage - grouped with region_code and replaced
-scheme_name - grouped with region and replaced
+<ol>
+<li>public_meeting - replaced with mode</li>
+<li>permit - replaced with mode</li>
+<li>installer - replaced with mode</li>
+<li>funder - replaced with mode</li>
+<li>scheme_management - grouped with region_code and replaced</li>
+<li>subvillage - grouped with region_code and replaced</li>
+<li>scheme_name - grouped with region and replaced</li>
+</ol>  
 
 Zeros
 
-gps_height - replaced with mean
-amount_tsh - replaced with mean
-num_private - replaced with mean
-population - replaced with mean
-construction_year - replaced with mean
-corrdinates -  - replaced with mean
+<ol>
+<li>gps_height - replaced with mean</li>
+<li>amount_tsh - replaced with mean</li>
+<li>num_private - replaced with mean</li>
+<li>population - replaced with mean</li>
+<li>construction_year - replaced with mean</li>
+<li>corrdinates -  - replaced with mean</li>
+</ol> 
 
 ### New Features
 
-year_recorded - from data_recorded
-no_of_years - from year_recorded - construction_year
+<ol>
+<li>year_recorded - from data_recorded</li>
+<li>no_of_years - from year_recorded - construction_year</li>
+</ol>
 
 ### Removed Redundant Columns via Correlation
 
 ![image](https://user-images.githubusercontent.com/44718392/133864912-522f6410-e759-4fca-a9ef-d5f5e57e044f.png)
 
-
-date_recorded
-recorded_by
-source_type
-quantity_group
-extraction_type_group
-waterpoint_type_group
+<ol>
+<li>date_recorded</li>
+<li>recorded_by</li>
+<li>source_type</li>
+<li>quantity_group</li>
+<li>extraction_type_group</li>
+<li>waterpoint_type_group</li>
+</ol> 
 
 ### PCA
 
@@ -84,3 +91,5 @@ explained_variance_ratio - 0.51618162, 0.2540258
 ### Results
 
 ![image](https://user-images.githubusercontent.com/44718392/133864980-53a08b6f-4f04-4b6c-b1c5-1b7963cdfe8b.png)
+
+### Further explanation done in the notebook
